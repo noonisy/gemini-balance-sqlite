@@ -14,6 +14,9 @@
 - 使用步骤
   - `git clone https://github.com/noonisy/gemini-balance-sqlite.git`
   - `cd gemini-balance-sqlite`
+  - `cp .env.example .env`
+  - `在 .env 中，修改 API_KEYS、ALLOWED_TOKENS 等参数`
+  - `在 docker-compose.yml 中，修改 ports 等参数`
   - `sh docker.sh`
 
 ## 🙏 感谢贡献者
