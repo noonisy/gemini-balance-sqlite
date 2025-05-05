@@ -15,12 +15,7 @@ from app.log.logger import Logger
 
 class Settings(BaseSettings):
     # 数据库配置
-    MYSQL_HOST: str
-    MYSQL_PORT: int
-    MYSQL_USER: str
-    MYSQL_PASSWORD: str
-    MYSQL_DATABASE: str
-    MYSQL_SOCKET: str = None
+    SQLITE_DATABASE: str
     
     # API相关配置
     API_KEYS: List[str]
